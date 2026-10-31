@@ -4,7 +4,7 @@
 [![CodeQL](https://github.com/agustiininicabral/frontend-component-library/actions/workflows/codeql.yml/badge.svg)](https://github.com/agustiininicabral/frontend-component-library/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-A focused React component library demonstrating component API design, accessibility fundamentals, automated testing, documentation and CI quality gates.
+A focused React component library demonstrating API design, accessibility fundamentals, Storybook documentation, automated testing and CI quality gates.
 
 ## Components
 
@@ -15,11 +15,11 @@ A focused React component library demonstrating component API design, accessibil
 | Card | Layout | Semantic section, optional heading and description |
 | Badge | Feedback | Neutral, success, warning, danger and info tones |
 
-Public components and types are exported from `src/index.ts`.
+Public components and types are exported from `src/index.ts`. Each component has Storybook stories with interactive controls and autodocs.
 
 ## Stack
 
-React 19 · TypeScript strict · Vite · Vitest · Testing Library · Playwright · ESLint · GitHub Actions · CodeQL · Dependabot.
+React 19 · TypeScript strict · Vite · Storybook 9 · Vitest · Testing Library · Playwright · ESLint · GitHub Actions · CodeQL · Dependabot.
 
 ## Requirements and setup
 
@@ -28,6 +28,13 @@ Node.js 22+ and npm 10+.
 ```bash
 npm install
 npm run dev
+```
+
+## Component documentation
+
+```bash
+npm run storybook
+npm run build-storybook
 ```
 
 ## Quality checks
