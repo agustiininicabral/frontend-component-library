@@ -40,7 +40,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.28.0",
+    "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.52.0",
     "@storybook/addon-docs": "^9.0.0",
     "@storybook/react-vite": "^9.0.0",
